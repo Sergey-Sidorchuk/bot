@@ -1,0 +1,16 @@
+body {
+  color: rgb(20, 219, 13);
+}
+p {
+  color: red;
+  font-size: 20px;
+}
+<!-- Задание 3 вопрос 2 -- > p {
+  p { color: red;
+  font-size: 20px;
+}
+<!-- Задание 3 вопрос 3 -->
+* {
+margin: 0 ;
+padding: 0 ;
+}
