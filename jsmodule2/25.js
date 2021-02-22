@@ -18,3 +18,30 @@
 // Вызов функции getCommonElements() со случайными двумя массивами возвращает правильный массив.
 // // В цикле for использовались методы includes и push.
 
+// Вариант 1
+function getCommonElements(array1, array2) {
+    // Пиши код ниже этой строки
+    const common = [];
+    for (array of array1) {
+        if (array2.includes(array)) { common.push(array) };
+    }
+    return common;
+}
+    
+console.log(getCommonElements([1, 2, 3], [2, 4]));
+  
+//   // Пиши код выше этой строки
+// }
+
+
+// function getCommonElements(array1, array2) {
+// const newArray = [];
+// for (const element of array1) {
+// if ( array1.includes(element) && array2.includes((element))) {
+//   newArray.push(element);
+// }
+//  }
+//     return newArray;
+
+// }
+//     console.log(getCommonElements([1, 2, 3], [2, 4]));
