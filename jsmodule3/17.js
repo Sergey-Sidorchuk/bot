@@ -50,7 +50,7 @@ const colors = [
 const hexColors = [];
 const rgbColors = [];
 // Пиши код ниже этой строки
-const keys = Object.keys(colors);
+  const keys = Object.keys(colors);
 for(color of colors){
   
 
