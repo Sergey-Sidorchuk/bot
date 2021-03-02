@@ -26,4 +26,4 @@ const keys = Object.keys(object);
 }
 console.log(countProps({ name: 'Mango', age: 2 }));
 console.log(countProps({ mail: 'poly@mail.com', isOnline: true, score: 500 }));
-console.log(countProps({});
+console.log(countProps({}));
